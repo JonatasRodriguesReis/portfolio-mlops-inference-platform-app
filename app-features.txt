@@ -1,0 +1,27 @@
+1️⃣ Dockerfile otimizado para inference
+2️⃣ Healthcheck / readiness
+3️⃣ Prometheus metrics (latência e throughput)
+4️⃣ Deploy no Kubernetes
+
+Ajustes recomendados para IA (próximo nível)
+
+Não vamos implementar tudo agora, mas saiba que o caminho é:
+
+/health endpoint real
+
+HPA por latência ou RPS
+
+Metrics via Prometheus
+
+Canary rollout (Argo Rollouts)
+
+Requests vs limits calibrados por benchmark
+
+🚀 Próximo passo (ordem ideal)
+
+Minha recomendação de mentor:
+
+1️⃣ Adicionar endpoint /health
+2️⃣ Instrumentar métricas Prometheus (latência)
+3️⃣ HPA baseado em métricas
+4️⃣ Argo CD (GitOps)
