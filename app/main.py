@@ -4,7 +4,7 @@ from api.health import router as health_router
 from api.metrics import router as metrics_router
 
 app = FastAPI(
-    title="MLOps Inference Platform App",
+    title="MLOps Inference Platform",
     version="0.1.0"
 )
 
